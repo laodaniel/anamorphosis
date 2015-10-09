@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "max-len": [1, 120, 4],
+    "comma-dangle": [2, "never"],
+    "no-console": 0,
+    "no-undef": 2,
+    "react/react-in-jsx-scope": 0
+  }
+}

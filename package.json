@@ -1,0 +1,38 @@
+{
+  "name": "anamorphosis",
+  "version": "1.0.0",
+  "description": "Generate 3D anamorphic image",
+  "repository": "https://github.com/laodaniel",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel-node ./node_modules/.bin/webpack --progress --profile --colors",
+    "watch": "./node_modules/.bin/babel-node ./node_modules/.bin/webpack-dev-server --hot --inline --progress --colors"
+  },
+  "author": "Daniel Lao <laodaniel@gmail.com>",
+  "license": "SEE LICENSE IN README.md",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel": "^5.8.21",
+    "babel-eslint": "^4.0.10",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.19.0",
+    "csslint": "^0.10.0",
+    "csslint-loader": "^0.2.1",
+    "eslint-loader": "^1.0.0",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.6.1",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "loader-utils": "^0.2.11",
+    "style-loader": "^0.12.4",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "dependencies": {
+    "extract-text-webpack-plugin": "^0.8.2",
+    "normalizecss": "^3.0.0",
+    "react": "^0.13.3",
+    "three": "^0.72.0"
+  }
+}

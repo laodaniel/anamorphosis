@@ -1,0 +1,6 @@
+{
+  "preset": "airbnb",
+  "requireTrailingComma": null,
+  "requirePaddingNewLinesAfterBlocks": null,
+  "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "case", "return", "try", "typeof"]
+}
